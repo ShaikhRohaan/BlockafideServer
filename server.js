@@ -30,9 +30,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: '217.160.146.227',
+    user: 'rohan',
+    password: 'rohanlocalhost',
     database: 'scd101'
 });
 
